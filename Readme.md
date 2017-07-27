@@ -39,9 +39,7 @@ class App extends Component {
 
 ```
 const SomeOtherComponent = (props) => {
-  // props comes in as an object. React knows how to pass this down based on the attributes given.
-  // in here you can do stuff with props. 
-  // Because this is a functional component you can simply iterate over a list of given elements and render them out to the term.
+  render them out to the term.   
   return (
     <ul>
       {props.items.map((element) => {
@@ -51,4 +49,7 @@ const SomeOtherComponent = (props) => {
   )
 }
 ```
+- React tells `props` to come in as an obj. React knows this component needs props because we set them on as an attribute on `<SomeOtherComponent items={this.state.props}/>` as 'items'.
+- Now inside of `<SomeOtherComponent />` you can do stuff with `props`. Notice we're passing props in as a param. It will be an object called props that you can reference.
+- Because this is a functional component you can simply iterate over a list of given elements and render each element to the screen.
 
