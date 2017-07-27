@@ -9,16 +9,7 @@
 
 ## Lesson Plan
 
-### Recursion
-
-All loops can be written recursively.  
-Functions overview (HOF, callbacks, anonymous functions, assigned to variables, added to arrays, and they can call themselves!).  
-Call stack  
-Base case  
-Iterate towards base case  
-Iteration is usually better than recursion but recursion can be simpler to write at times  
-
-Class Component example:
+### Class Component example:
 
 ```
 class App extends Component {
@@ -39,7 +30,7 @@ class App extends Component {
 }
 ```
 
-Functional Component example: 
+### Functional Component example: 
 
 ```
 const SomeOtherComponent = (props) => {
