@@ -18,11 +18,41 @@ Base case
 Iterate towards base case  
 Iteration is usually better than recursion but recursion can be simpler to write at times  
 
-Factorial example:
+Class Component example:
+
 ```
-const nFactorial = (n) => {
-  if (n === 1) return 1; // base case
-  return n * (n - 1); // the n - 1 ensures we iterate towards the base case and avoid an infinite loop
-};
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      items: ['item1', 'item2', 'item3'],
+    };
+  }
+  render() {
+    return (
+      <div>Your content here
+        <SomeOtherComponent items={this.state.items} />
+      </div>
+
+    )
+  }
+}
+```
+
+Functional Component example: 
+
+```
+const SomeOtherComponent = (props) => {
+  // props comes in as an object. React knows how to pass this down based on the attributes given.
+  // in here you can do stuff with props. 
+  // Because this is a functional component you can simply iterate over a list of given elements and render them out to the term.
+  return (
+    <ul>
+      {props.map((element) => {
+        return <li>{element}</li>
+      })}
+    </ul>
+  )
+}
 ```
 
