@@ -2,14 +2,15 @@
 
 ## Topics
 
-* React, A bird's eye view
+* [React, A bird's eye view](http://slides.com/w33ble/understanding-react#/2)
 * Class vs Function components
-* State
+* state
 * this.setState
-* Props
+* props
+* [Life Cycle Methods](https://engineering.musefind.com/react-lifecycle-methods-how-and-when-to-use-them-2111a1b692b1)
 
 ## Lesson Plan
-
+- Start in the `App.js` file in the components directory.
 ### Class Component example:
 
 ```
