@@ -2,7 +2,7 @@
 
 ## Topics
 
-* [React, A bird's eye view](http://slides.com/w33ble/understanding-react#/2)
+* [React, A bird's eye view](http://slides.com/w33ble/understanding-react)
 * Class vs Function components
 * state
 * this.setState
