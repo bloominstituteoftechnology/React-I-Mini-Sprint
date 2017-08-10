@@ -1,0 +1,49 @@
+#root {
+
+}
+
+.listings {
+  float: left;
+  position:relative;
+  width:200px;
+  height:200px;
+  background: #EEF0F2,
+}
+
+.padding {
+    grid-row-gap: 1em;
+}
+
+ .label {
+    border-radius: 9px;
+    justify-content: center;
+    color: #1C1C1C;
+    padding: 10%; 
+    position:absolute;
+    top:45px;
+    left:45px;
+    background:#FAFAFF;
+    width:185px;
+    height:75px;
+ }
+
+ .icon {
+    border-radius: 50%;
+    position: absolute;
+    background: #ECEBE4; 
+    top: 15px;
+    left: 7px;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+ }
+
+ .mail {
+    position: absolute;
+    justify-content: center;
+    background: #C3C5C7;
+    top: 15px;
+    left: 150px;
+    width: 30px;
+    height: 30px;
+ }
