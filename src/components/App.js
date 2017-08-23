@@ -12,3 +12,20 @@
       // Step 11: Inside the return statement, write a selfclosing tag called MoviesList
         // Step 12: Inside the selfclosing tag, give it an attribute called movies, and pass it this.state.movies inside a set of curly bracket. 
 // Step 13: Outside the class, export the App class as a default. 
+import React from 'react';
+import {render} from "react-dom";
+import MoviesList from "./MoviesList";
+
+
+class App extends React.Component{
+  constructor() {
+    super();
+    this.state = {movies: ["Stepbrothers", "Daredevil", "Spiderman"]};
+}
+
+  render() {
+    return (<MoviesList movies={this.state.movies} />);
+}
+}
+
+export default App;
