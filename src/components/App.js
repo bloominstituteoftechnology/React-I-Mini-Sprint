@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import { render } from 'react-dom';
 
-import MovieList from './MoviesList';
+import MoviesList from './MoviesList';
 
 class App extends Component {
   constructor() {
@@ -12,7 +12,7 @@ class App extends Component {
   }
   render() {
     return (
-      <MovieList movies={this.state.movies}/>
+      <MoviesList movies={this.state.movies}/>
     );
   }
 }
