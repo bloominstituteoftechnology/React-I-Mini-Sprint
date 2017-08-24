@@ -25,7 +25,9 @@ class App extends Component {
     };
   }
   render() {
-    return <MoviesList movies={ this.state.movies } />
+    return (
+      <MoviesList movies={ this.state.movies } />
+    )
   }
 }
 
