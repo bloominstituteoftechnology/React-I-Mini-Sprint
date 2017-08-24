@@ -10,7 +10,7 @@
 // Outside the arrow function, export the function MoviesList as a default.
 import React from 'react';
 
-export const MoviesList = () => {
+const MoviesList = () => {
   return (
     <div>
       <ul>
