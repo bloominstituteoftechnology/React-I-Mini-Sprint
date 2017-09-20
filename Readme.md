@@ -1,6 +1,6 @@
 # React Mini I
 
-[Lecture Video](https:://www.youtube.com/watch?v=Ty9DTVIaATY)
+[Lecture Video](https://www.youtube.com/watch?v=Ty9DTVIaATY)
 
 [Link to CodeSandbox used in the lecture (with lots of comments!)](https://codesandbox.io/s/z667kplonx)
 
