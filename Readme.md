@@ -6,6 +6,7 @@
 
 ## Topics
 
+* [ReactJS for Beginners](https://blog.andrewray.me/reactjs-for-stupid-people/)
 * [React, A bird's eye view](http://slides.com/w33ble/understanding-react)
 * Class vs Function components
 * state
