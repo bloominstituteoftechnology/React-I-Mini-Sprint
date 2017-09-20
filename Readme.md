@@ -1,5 +1,9 @@
 # React Mini I
 
+[Lecture Video](https:://www.youtube.com/watch?v=Ty9DTVIaATY)
+
+[Link to CodeSandbox used in the lecture (with lots of comments!)](https://codesandbox.io/s/z667kplonx)
+
 ## Topics
 
 * [React, A bird's eye view](http://slides.com/w33ble/understanding-react)
