@@ -1,9 +1,9 @@
 // Step 1: Import React, and Component from react.
-import React { Component } from 'react';
+import React, { Component } from 'react';
 // Step 2: Import render from react-dom
 import { render } from 'react-dom';
 // Step 3: Import MoviesList from MoviesList
-import { MoviesList } from './MoviesList';
+import MoviesList from './MoviesList';
 
 // Step 4: Write a class called App, extending Component.
 class App extends Component {
@@ -11,15 +11,14 @@ class App extends Component {
 		super();
 
 		this.state = {
-			movies: [Fargo', 'Frozen', 'Scarface]
-		}
+			movies: ['Fargo', 'Frozen', 'Scarface', 'Nebraska', 'Lion']
+		};
 	}
-}
-
-render() {
-	return (
-		<MoviesList movies='{ this.state.movies }'/>
-		)
+	render() {
+		return (
+			<MoviesList movies= { this.state.movies }/>
+			);
+	}
 };
 
 export default App;

@@ -1,15 +1,15 @@
 // Import React from react.
-import React { Component } from 'react';
+import React, { Component } from 'react';
 // Create a const arrow function called MoviesList.
-const MoviesList = () => {
+const MoviesList = ({movies}) => {
 	return (
-		<ul> {movies.map((movie, i) => {
+		<ul> { movies.map((movie, i) => {
 			return (
-				<li {movie}>{key: i}</li>
-				)
+				<li key= {i}>{movie}</li>
+				);
 		})}</ul>
-		)
-}
+		);
+};
 
 export default MoviesList;
   // Return an unordered list
