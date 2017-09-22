@@ -10,14 +10,14 @@ class App extends Component {
   constructor() {
     super();
 
-    this.state ={
+    this.state = {
       movies: [],
     };
   }
 
   render() {
     return (
-      <div>
+      <div attribute='movies'>
         {this.state.movies}
       </div>
     );
