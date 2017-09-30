@@ -10,13 +10,7 @@ import React from 'react';
 // Outside the arrow function, export the function MoviesList as a default.
 
 const MoviesList = ({movies}) => {
-  return (
-    <ul>{ movies.map((movie, i) => (
-      return (
-        <li key={i}>{movie}</li>
-      );
-    }</ul>
-  );
+    return (<ul>{ movies.map((movie, i) => (<li key={i}>{movie}</li>)) }</ul>);
 };
 
 export default MoviesList
