@@ -1,4 +1,5 @@
-# React Mini I
+
+# React One Guided Project
 
 [Lecture Video](https://www.youtube.com/watch?v=Ty9DTVIaATY)
 
@@ -6,16 +7,20 @@
 
 ## Topics
 
-* [ReactJS for Beginners](https://blog.andrewray.me/reactjs-for-stupid-people/)
-* [React, A bird's eye view](http://slides.com/w33ble/understanding-react)
 * Class vs Function components
 * state
 * this.setState
 * props
 * [Life Cycle Methods](https://engineering.musefind.com/react-lifecycle-methods-how-and-when-to-use-them-2111a1b692b1)
 
-## Lesson Plan
-- Start in the `App.js` file in the components directory.
+## Suggested Reading Material 
+* [ReactJS for Beginners](https://blog.andrewray.me/reactjs-for-stupid-people/)
+* [React, A bird's eye view](http://slides.com/w33ble/understanding-react)
+
+## Steps to completing the project
+
+### 1. Start in the `App.js` file in the components directory.
+
 ### Class Component example:
 
 ```
