@@ -1,4 +1,11 @@
 // Import React from react.
+import React from 'react';
+
+const MoviesList = props => {
+	return <div>Hello from within Movies List</div>
+};
+
+export default MoviesList;
 
 // Create a const arrow function called MoviesList.
 // Return an unordered list
