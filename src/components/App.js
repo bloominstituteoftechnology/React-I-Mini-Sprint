@@ -12,3 +12,45 @@
 // Step 11: Inside the return statement, write a selfclosing tag called MoviesList
 // Step 12: Inside the selfclosing tag, give it an attribute called movies, and pass it this.state.movies inside a set of curly bracket.
 // Step 13: Outside the class, export the App class as a default.
+
+import React, { Component } from 'react';
+import MoviesList from './MoviesList.js';
+
+class App extends Component {
+	constructor() {
+		super();
+		this.state = { 
+			title: "",
+			movies: ['The Matrix', 'The Matrix Revolution'],
+		};
+		this.changeHandler = this.changeHandler.bind(this);
+		this.addMovieHandler = this.addMovieHandler.bind(this);
+	}
+
+	changeHandler(event) {
+		this.setState({
+			title: event.target.value,
+		});
+	}
+
+	addMovieHandler() {
+		const title = this.state.title;
+		const movies = this.state.movies;
+		movies.push(title);
+		this.setState({
+			title: "",
+			movies,
+		});
+	}
+
+	render() {
+		return (
+			<MoviesList movies={this.state.movies}
+			title={this.state.title}
+			changeHandler={this.changeHandler}
+			addMovieHandler={this.addMovieHandler} />
+		);
+	}
+}
+
+export default App;
