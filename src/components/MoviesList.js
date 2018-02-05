@@ -11,16 +11,14 @@
 
 import React from 'react';
 
-const MoviesList = () => {
+const MoviesList = (props) => {
     return (
         <ul>
-            { this.state.movies.map(movie, i => {
-                return (
-                    <li key={ i }>{ movie }</li>
-                );
-            })
-            }
-        </ul>);
-}
+            { props.movies.map((movie, i) => {
+                return <li key={i}>{movie}</li>
+            })}
+        </ul>
+    )
+};
 
 export default MoviesList;

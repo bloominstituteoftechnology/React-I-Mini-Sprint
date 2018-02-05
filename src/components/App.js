@@ -15,19 +15,25 @@
 
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import './MoviesList.js';
+import MoviesList from './MoviesList.js';
 
 class App extends Component {
-    constructor(){
+    constructor() {
         super();
         this.state = {
             movies: [
-
+                'Shawshank Redemption',
+                'Man on Fire',
+                'Robin Hood',
             ],
-        }
+        };
     }
     render() {
-        return <MoviesList movies={ this.state.movies } />;
+        return (
+            <div>
+                <MoviesList movies={this.state.movies}/>;
+            </div>
+        )
     }
 }
 
