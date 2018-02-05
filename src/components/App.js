@@ -7,7 +7,9 @@ import { render } from 'react-dom';
 import MoviesList from './MoviesList';
 // Step 4: Write a class called App, extending Component.
 class App extends Component {
-  
+  constructor() {
+    
+  }
 }
 // Step 5: Write a constructor function without passing anything into it.
 // Step 6: Inside the constructor function, call super without passing anything into it.
