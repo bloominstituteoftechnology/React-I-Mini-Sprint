@@ -26,9 +26,8 @@ class App extends Component {
   render() {
     return (
       <MoviesList movies = {this.state.movies}/>
-    )
+    );
   }
-
 }
 
 export default App;
