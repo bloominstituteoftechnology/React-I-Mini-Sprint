@@ -22,7 +22,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      movies: ['movie1', 'movie2', 'movie3'];
+      movies: ['movie1', 'movie2', 'movie3'],
     };
   }
   render() {
