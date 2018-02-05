@@ -2,6 +2,15 @@ import React, { Component } from 'react'; // Step 1: Import React, and Component
 import ReactDOM from 'react-dom'; // Step 2: Import render from react-dom
 import './MoviesList.js';// Step 3: Import MoviesList from MoviesList
 
+class App extends Component {
+    constructor() {
+        super();
+
+        this.state ={
+            movies: ['Wedding Crashers', 'Grandmas Boy', 'Pineapple Express']
+        };
+    }
+}
 // Step 4: Write a class called App, extending Component.
 // Step 5: Write a constructor function without passing anything into it.
 // Step 6: Inside the constructor function, call super without passing anything into it.
