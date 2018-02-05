@@ -35,7 +35,7 @@ class MoviesList extends Component {
       },
       {
         id: 3,
-        title: "JumSolo: A Star Wars Storyanji"
+        title: "Solo: A Star Wars Story"
       },
       {
         id: 4,
