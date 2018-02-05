@@ -10,5 +10,25 @@
 // Step 9: Write a render function.
 // Step 10: Inside the render function, write a return statement.
 // Step 11: Inside the return statement, write a selfclosing tag called MoviesList
-// Step 12: Inside the selfclosing tag, give it an attribute called movies, and pass it this.state.movies inside a set of curly bracket.
+// Step 12: Inside the selfclosing tag, give it an attribute called movies,
+// and pass it this.state.movies inside a set of curly bracket.
 // Step 13: Outside the class, export the App class as a default.
+
+import ReactDom from reactdom;
+import MoviesList from MoviesList;
+
+class App extends Component {
+    constructor() {
+        super();
+        this.state = {
+            movies:['one','two','three'],
+        };
+    }
+    render() {
+        return (
+            <MoviesList 
+            this.state.movies = {movies}/>
+            );
+}
+}
+
