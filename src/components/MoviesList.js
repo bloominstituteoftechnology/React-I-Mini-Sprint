@@ -2,6 +2,8 @@
 import React from 'react';
 import Component from 'react';
 import { render } from 'react-dom';
+
+/*
 // Create a const arrow function called MoviesList.
 const MoviesList = () => {
   // Return an unordered list.
@@ -18,6 +20,11 @@ const MoviesList = () => {
     </ul>
   );
 };
+*/
+
+class MoviesList extends Component {
+  
+}
 
 // Outside the arrow function, export the function MoviesList as a default.
 export default MoviesList;
