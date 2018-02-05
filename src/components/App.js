@@ -1,8 +1,27 @@
 // Step 1: Import React, and Component from react.
+import React from 'react';
+import Component from 'react';
 // Step 2: Import render from react-dom
+import { render } from 'react-dom';
 // Step 3: Import MoviesList from MoviesList
-
+import MoviesList from 'MoviesList';
 // Step 4: Write a class called App, extending Component.
+export default class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      movies: ['Brick', 'Kill Bill Vol. 1', '8 Mile', 'The Usual Suspects'],
+    };
+  }
+  render() {
+    return (
+      <div>
+        <MoviesList movies={this.state.movies} />
+      </div>
+    );
+  }
+}
+
 // Step 5: Write a constructor function without passing anything into it.
 // Step 6: Inside the constructor function, call super without passing anything into it.
 // Step 7: Inside the constructor function, create a state on this, and set it to an object.
