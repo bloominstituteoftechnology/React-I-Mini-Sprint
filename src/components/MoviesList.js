@@ -1,8 +1,8 @@
 import React from 'react';
 // Import React from react.
 
-const MoviesList = () => {
-    return <ul>{this.state.movies.map((movies, i) => <li key={i}>x</li>)}</ul>
+const MoviesList = (props) => {
+    return <ul>{props.movies.map((movie, i) => <li key={i}>{movie}</li>)}</ul>;
 }
 export default MoviesList;
 // Create a const arrow function called MoviesList.
