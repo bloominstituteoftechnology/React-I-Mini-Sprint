@@ -1,4 +1,4 @@
-// Import React from react.
+import React from 'react'; // Import React from react.
 
 // Create a const arrow function called MoviesList.
 // Return an unordered list

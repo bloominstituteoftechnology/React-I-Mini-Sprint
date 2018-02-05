@@ -1,6 +1,8 @@
-// Step 1: Import React, and Component from react.
-// Step 2: Import render from react-dom
-// Step 3: Import MoviesList from MoviesList
+import React from 'react';
+import Component from 'react'; // Step 1: Import React, and Component from react.
+import { render } from 'react-dom'; // Step 2: Import render from react-dom
+import MoviesList from './components/MovieList';// Step 3: Import MoviesList from MoviesList
+
 
 // Step 4: Write a class called App, extending Component.
 // Step 5: Write a constructor function without passing anything into it.
@@ -12,3 +14,18 @@
 // Step 11: Inside the return statement, write a selfclosing tag called MoviesList
 // Step 12: Inside the selfclosing tag, give it an attribute called movies, and pass it this.state.movies inside a set of curly bracket.
 // Step 13: Outside the class, export the App class as a default.
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {movies: ['Inception', 'The Departed', 'Planet Earth', 'Peaky Blinders']};
+  }
+
+  render() {
+    return (
+      <MoviesList movies = {this.state.movies}/>
+    );
+  }
+}
+
+export default (App);
+
