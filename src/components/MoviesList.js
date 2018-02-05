@@ -1,5 +1,5 @@
 // Import React from react.
-
+import React from 'react';
 // Create a const arrow function called MoviesList.
 // Return an unordered list
 // Inside the unordered list, embed a javascript expression (curly brackets).
@@ -8,3 +8,12 @@
 // The function should return a list item, with a javascript expression movie (the same variable as map).
 // The list item should have an attribute called key, that takes in i as a javascript expression.
 // Outside the arrow function, export the function MoviesList as a default.
+
+const MoviesList = () => {
+  
+  return <ul>{this.state.movies.map((movie, i) => return movie, key = i)}</ul>
+};
+
+export default MoviesList;
+
+//movie[key = i]
