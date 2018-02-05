@@ -8,7 +8,7 @@ class App extends Component {
     super();
 
     this.state = {
-      movies: [],
+      movies: ['Alien', 'Highlander', 'Star Wars: A New Hope'],
     };
   }
 
