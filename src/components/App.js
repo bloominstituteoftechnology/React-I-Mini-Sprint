@@ -1,5 +1,5 @@
 import React from 'react';
-import Component from 'react'; // Step 1: Import React, and Component from react.
+import { Component } from 'react'; // Step 1: Import React, and Component from react.
 import { render } from 'react-dom'; // Step 2: Import render from react-dom
 import MoviesList from './MoviesList';// Step 3: Import MoviesList from MoviesList
 
@@ -19,15 +19,14 @@ class App extends Component {
     super();
     this.state = {movies: ['Inception', 'The Departed', 'Planet Earth', 'Peaky Blinders']};
   }
-
   render() {
     return (
       <div>
-      <MoviesList movies = {this.state.movies}/>
+      <MoviesList movies = {this.state[movies]}/>
       </div>
     );
   }
 }
 
-export default (App);
+export default App;
 
