@@ -15,8 +15,8 @@
 
 import React from 'react';
 import Component from 'react';
-import render from 'react-dom';
-import MoviesList from 'MoviesList';
+import { render } from 'react-dom';
+import { MoviesList } from 'MoviesList';
 
 class App extends Component {
   constructor() {
