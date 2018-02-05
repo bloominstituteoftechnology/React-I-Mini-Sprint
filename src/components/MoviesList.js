@@ -10,10 +10,10 @@
 // Outside the arrow function, export the function MoviesList as a default.
 import React from 'react';
 
-const MoviesList = () => {   
+const MoviesList = (props) => {   
     return (
       <ul>
-        {state.movies.map((movies, i) => {
+        {props.movies.map((movies, i) => {
           return <li>{key[i]}</li>
         })}
       </ul>
