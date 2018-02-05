@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // Step 1: Import React, and Component from react.
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 // Step 2: Import render from react-dom
 import MoviesList from './MoviesList';
 // Step 3: Import MoviesList from MoviesList
@@ -13,9 +13,8 @@ class App extends Component {
         };
     }
     render() {
-        return <MoviesList movies={this.state.movies} />;
+        return <MoviesList movies={this.state.movies} />
     }
-
 }
 export default App;
 // Step 4: Write a class called App, extending Component.
