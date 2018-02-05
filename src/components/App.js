@@ -12,10 +12,9 @@ class App extends Component {
     // Step 6: Inside the constructor function, call super without passing anything into it.
     super();
     // Step 7: Inside the constructor function, create a state on this, and set it to an object.
-    this.state = {};
+    this.state = {movies: ["Jumanji", "Avengers: Infinity War", "Solo: A Star Wars Story", "Ready Player One"]}; // Step 8: Inside the object, set a key to movies, and the value to an array of movies.
   }
 }
-// Step 8: Inside the object, set a key to movies, and the value to an array of movies
 // Step 9: Write a render function.
 // Step 10: Inside the render function, write a return statement.
 // Step 11: Inside the return statement, write a selfclosing tag called MoviesList
