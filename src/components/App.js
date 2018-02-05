@@ -2,7 +2,7 @@
 // Step 2: Import render from react-dom
 // Step 3: Import MoviesList from MoviesList
 import React from 'react';
-import Component from 'react';
+// import Component from 'react';
 
 import { render } from 'react-dom';
 
@@ -19,7 +19,7 @@ import MoviesList from './MoviesList.js';
 // Step 12: Inside the selfclosing tag, give it an attribute called movies, and pass it this.state.movies inside a set of curly bracket.
 // Step 13: Outside the class, export the App class as a default.
 
-class App extends Component {
+class App extends React.Component {
     constructor() {
         super();
         this.state = {

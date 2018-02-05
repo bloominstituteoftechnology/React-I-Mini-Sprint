@@ -10,10 +10,10 @@ import React from "react";
 // The list item should have an attribute called key, that takes in i as a javascript expression.
 // Outside the arrow function, export the function MoviesList as a default.
 
-const MoviesList = (movies) => {
+const MoviesList = (movieList) => {
     return (
         <ul>
-            {movies.items.map((movie, i) => {
+            {movieList.movies.map((movie, i) => {
                 return <li key={i}>{movie}</li>
             })}
         </ul>
