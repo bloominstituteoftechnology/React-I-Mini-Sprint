@@ -1,6 +1,6 @@
 import React, { Component } from 'react'; // Step 1: Import React, and Component from react.
-import ReactDOM from 'react-dom'; // Step 2: Import render from react-dom
-import './MoviesList.js';// Step 3: Import MoviesList from MoviesList
+import { render } from 'react-dom'; // Step 2: Import render from react-dom
+import MoviesList from './MoviesList.js';// Step 3: Import MoviesList from MoviesList
 
 class App extends Component {
     constructor() {
@@ -10,7 +10,13 @@ class App extends Component {
             movies: ['Wedding Crashers', 'Grandmas Boy', 'Pineapple Express']
         };
     }
+    render() {
+        return (
+        <moviesList />
+    }
 }
+
+export default App;
 // Step 4: Write a class called App, extending Component.
 // Step 5: Write a constructor function without passing anything into it.
 // Step 6: Inside the constructor function, call super without passing anything into it.
