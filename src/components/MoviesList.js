@@ -9,7 +9,7 @@ import React from 'react'; // Import React from react.
 // The list item should have an attribute called key, that takes in i as a javascript expression.
 // Outside the arrow function, export the function MoviesList as a default.
 
-const Movieslist = (props) => {
+const MoviesList = (props) => {
   return (
     <ul>
       {props.movies.map((movie, i) => {
@@ -19,4 +19,4 @@ const Movieslist = (props) => {
   );
 };
 
-export default Movieslist;
+export default MoviesList;
