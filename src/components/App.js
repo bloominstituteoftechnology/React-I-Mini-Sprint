@@ -6,13 +6,14 @@ class App extends Component {
     constructor() {
         super();
 
-        this.state ={
+        this.state = {
             movies: ['Wedding Crashers', 'Grandmas Boy', 'Pineapple Express']
         };
     }
     render() {
         return (
-        <moviesList />
+        <moviesList movies={this.state.movies} />
+        );
     }
 }
 
