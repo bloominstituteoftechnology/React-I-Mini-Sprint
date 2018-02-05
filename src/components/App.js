@@ -11,9 +11,10 @@ class App extends Component {
   constructor() {
     // Step 6: Inside the constructor function, call super without passing anything into it.
     super();
+    // Step 7: Inside the constructor function, create a state on this, and set it to an object.
+    this.state = {};
   }
 }
-// Step 7: Inside the constructor function, create a state on this, and set it to an object.
 // Step 8: Inside the object, set a key to movies, and the value to an array of movies
 // Step 9: Write a render function.
 // Step 10: Inside the render function, write a return statement.
