@@ -1,5 +1,10 @@
+import React from 'react';
 // Import React from react.
 
+const MoviesList = () => {
+    return <ul>{this.state.movies.map((movies, i) => <li key={i}>x</li>)}</ul>
+}
+export default MoviesList;
 // Create a const arrow function called MoviesList.
 // Return an unordered list
 // Inside the unordered list, embed a javascript expression (curly brackets).
