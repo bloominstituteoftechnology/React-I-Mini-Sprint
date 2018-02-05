@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { render } from 'react-dom';
 
 import MoviesList from './MoviesList';
 
 class App extends Component {
   constructor() {
-    super()
+    super();
 
     this.state = {
       movies: [],

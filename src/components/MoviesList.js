@@ -1,12 +1,12 @@
 import React from 'react';
 
-const MoviesList = () => {
+const MoviesList = (props) => {
   return (
   <ul>
-    {props.movies.map(movie, i => { return <li key={i}>{movie}</li> })}
+    {props.movies.map((movie, i) => { return <li key={i}>{movie}</li> })}
   </ul>
   );
-};
+}
 
 export default MoviesList;
 // Create a const arrow function called MoviesList.
