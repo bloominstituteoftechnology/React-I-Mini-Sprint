@@ -1,7 +1,9 @@
 // Step 1: Import React, and Component from react.
 // Step 2: Import render from react-dom
 // Step 3: Import MoviesList from MoviesList
-import { React, Component } from 'react';
+import React from 'react';
+import Component from 'react';
+
 import { render } from 'react-dom';
 
 import MoviesList from './MoviesList.js';
@@ -26,10 +28,9 @@ class App extends Component {
     }
     render() {
         return (
-        <div>
             <MoviesList movies={this.state.movies}/>
-        </div>
-        );
+        )
     }
 }
+
 export default App;
