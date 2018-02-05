@@ -1,5 +1,5 @@
 // Step 1: Import React, and Component from react.
-import React from 'react';
+import React, {Component} from 'react';
 // Step 2: Import render from react-dom
 import ReactDOM from 'react-dom';
 // Step 3: Import MoviesList from MoviesList
@@ -10,17 +10,21 @@ class App extends Component {
 	constructor(){
 		super();
 
-		this.state = {};
+		this.state = {
+      		movies: ['movie1', 'movie2', 'movie3'],
+    	};
+	}
 
-		render(){
-			return(
-				<MovieList movies="{this.state.movies}"/>
-			);
-		}
+	render() {
+		return (
+			<div>
+				<MoviesList movies={this.state.movies} />
+			</div>
+		)
 	}
 }
 
-Export default App;
+export default App;
 
 // Step 5: Write a constructor function without passing anything into it.
 // Step 6: Inside the constructor function, call super without passing anything into it.
