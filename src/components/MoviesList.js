@@ -5,7 +5,7 @@ const MoviesList = () => {
   // Return an unordered list.
   return (
     // Inside the unordered list, embed a javascript expression (curly brackets).
-    <ul>{movies.map()}</ul> // Inside the javascript expression, map the movies array.
+    <ul>{movies.map( (movie, i) )}</ul> // Inside the javascript expression, map the movies array.
   );
 };
 // The function inside map should take in two arguments, movie and i (for index).
