@@ -23,7 +23,34 @@ const MoviesList = () => {
 */
 
 class MoviesList extends Component {
-  
+  state = {
+    movies: [
+      {
+        id: 1,
+        title: "Jumanji"
+      },
+      {
+        id: 2,
+        title: "Avengers: Infinity War"
+      },
+      {
+        id: 3,
+        title: "JumSolo: A Star Wars Storyanji"
+      },
+      {
+        id: 4,
+        title: "Ready Player One"
+      },
+    ],
+  };
+
+  render() {
+    return (
+      <div className="movies-list">
+      
+      </div>
+    )
+  }
 }
 
 // Outside the arrow function, export the function MoviesList as a default.
