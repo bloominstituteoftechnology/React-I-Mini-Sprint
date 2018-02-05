@@ -25,3 +25,4 @@ class App extends Component {
 }
 
 // Step 13: Outside the class, export the App class as a default.
+export default App;
