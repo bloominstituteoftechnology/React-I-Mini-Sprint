@@ -16,4 +16,6 @@ const MoviesList = () => {
     </ul>
   );
 };
+
 // Outside the arrow function, export the function MoviesList as a default.
+export default MoviesList;
