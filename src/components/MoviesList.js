@@ -5,10 +5,15 @@ const MoviesList = () => {
   // Return an unordered list.
   return (
     // Inside the unordered list, embed a javascript expression (curly brackets).
-    <ul>{movies.map( (movie, i) )}</ul> // Inside the javascript expression, map the movies array.
+    <ul>
+    {movies.map( (movie, i) => { // Inside the javascript expression, map the movies array with two arguments, movie and i (for index).
+      // The function should return a list item, with a javascript expression movie (the same variable as map).
+      return (
+        <li>{movie}</li>
+      );
+    })}
+    </ul>
   );
 };
-// The function inside map should take in two arguments, movie and i (for index).
-// The function should return a list item, with a javascript expression movie (the same variable as map).
 // The list item should have an attribute called key, that takes in i as a javascript expression.
 // Outside the arrow function, export the function MoviesList as a default.
