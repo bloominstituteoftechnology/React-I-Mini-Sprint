@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-import { MoviesList } from "./MoviesList";
+import MoviesList from "./MoviesList";
 
 class App extends Component {
   constructor() {
