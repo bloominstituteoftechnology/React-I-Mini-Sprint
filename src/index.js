@@ -1,8 +1,17 @@
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom'; 
 
-import App from './components/App';
+import MovieList from './components/MoviesList.js';
+
+
+  
+ReactDOM.render(
+    <MovieList heading="List of Movies" />, 
+    document.getElementById('root')
+    );
+
+//react component gets props as argumrnt and returns JSX.
 
 
 
-render(<App />, document.getElementById('root'));
+

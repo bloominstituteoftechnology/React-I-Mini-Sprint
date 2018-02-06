@@ -13,8 +13,8 @@
 // Step 12: Inside the selfclosing tag, give it an attribute called movies,
 // and pass it this.state.movies inside a set of curly bracket.
 // Step 13: Outside the class, export the App class as a default.
-
-import ReactDom from reactdom;
+import React, { Component } from 'react';
+import ReactDom from 'react-dom';
 import MoviesList from MoviesList;
 
 class App extends Component {
@@ -26,9 +26,9 @@ class App extends Component {
     }
     render() {
         return (
-            <MoviesList 
-            this.state.movies = {movies}/>
+            // <MoviesList 
+            // this.state.movies = {movies}/>
             );
 }
 }
-
+export default App;
