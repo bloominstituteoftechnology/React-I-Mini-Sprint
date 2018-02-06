@@ -49,7 +49,7 @@ class App extends Component {
 
 ```
 const SomeOtherComponent = (props) => {
-  render them out to the term.   
+  // render them out to the term.   
   return (
     <ul>
       {props.items.map((element) => {
