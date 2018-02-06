@@ -11,11 +11,13 @@ import React from 'react'; // Import React from react.
 
 const MoviesList = (props) => {
   return (
-    <ul>
-      {props.movies.map((movie, i) => {
-        return <li key={i}>{movie}</li>
-      })}
-    </ul>
+    <div>
+      <ul>
+        {props.movies.map((movie) => {
+          return <li key={movie.id}>{movie.movie}</li>
+        })}
+      </ul>
+    </div>
   );
 };
 
