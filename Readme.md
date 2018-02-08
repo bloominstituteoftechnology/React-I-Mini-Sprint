@@ -8,6 +8,9 @@
 ## Topics
 
 * Class vs Function components
+Functoinal components: an arrow functions includes render method that return renderd HTML.
+Class components: a class that extends and inhiert the properties and methods from Component-React library.
+
 * state
 * this.setState
 * props
