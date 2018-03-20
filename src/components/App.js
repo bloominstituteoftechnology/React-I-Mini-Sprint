@@ -11,11 +11,11 @@ import MoviesList from './MoviesList';
 
 // Step 4: Write a class called App, extending Component.
 class App extends Component{
-    constructor () {
-        super()
-        this.state= {
-            movies : ['Batman', 'Superman', 'Avengers']
-        };
+    constructor () {  // Step 5: Write a constructor function without passing anything into it.
+        super() // Step 6: Inside the constructor function, call super without passing anything into it.
+        this.state = { // Step 7: Inside the constructor function, create a state on this, and set it to an object.
+          movies: ["Batman", "Superman", "Avengers"] };  
+          // Step 8: Inside the object, set a key to movies, and the value to an array of movies
     }
     render (){
         return (
@@ -28,10 +28,10 @@ class App extends Component{
 
 
 export default App;
-// Step 5: Write a constructor function without passing anything into it.
-// Step 6: Inside the constructor function, call super without passing anything into it.
-// Step 7: Inside the constructor function, create a state on this, and set it to an object.
-// Step 8: Inside the object, set a key to movies, and the value to an array of movies
+
+
+
+
 // Step 9: Write a render function.
 // Step 10: Inside the render function, write a return statement.
 // Step 11: Inside the return statement, write a selfclosing tag called MoviesList
