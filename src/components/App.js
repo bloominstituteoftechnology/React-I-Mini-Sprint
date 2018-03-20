@@ -2,9 +2,20 @@
 // Step 2: Import render from react-dom
 // Step 3: Import MoviesList from MoviesList
 
+import React, { Component } from "react";
+import { render } from "react-dom"
+import MoviesList from "./MoviesList"
+
 // Step 4: Write a class called App, extending Component.
 // Step 5: Write a constructor function without passing anything into it.
 // Step 6: Inside the constructor function, call super without passing anything into it.
+class App extends Component {
+    constructor() {
+        super();
+    }
+}
+
+
 // Step 7: Inside the constructor function, create a state on this, and set it to an object.
 // Step 8: Inside the object, set a key to movies, and the value to an array of movies
 // Step 9: Write a render function.
