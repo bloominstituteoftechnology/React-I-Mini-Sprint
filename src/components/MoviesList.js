@@ -8,3 +8,13 @@
 // The function should return a list item, with a javascript expression movie (the same variable as map).
 // The list item should have an attribute called key, that takes in i as a javascript expression.
 // Outside the arrow function, export the function MoviesList as a default.
+
+import React, { Component } from 'react'
+
+const MoviesList = props => {
+  return (
+      <div movie={this.props.movie}>{this.props.movie}</div>
+  )
+}
+
+export default MoviesList
