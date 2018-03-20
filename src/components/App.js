@@ -1,3 +1,22 @@
+import React from 'react';
+import Render from 'react-dom';
+import MovieList from './MoviesList';
+
+class App extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+            movies: ["Whiplash","One Flew Over The Cukoo's Nest","Network"]
+        }
+    }
+
+    render () {
+        return (
+            <MovieList movies = {this.state.movies}/>
+        )
+    }
+}
+export default App;
 // Step 1: Import React, and Component from react.
 // Step 2: Import render from react-dom
 // Step 3: Import MoviesList from MoviesList
