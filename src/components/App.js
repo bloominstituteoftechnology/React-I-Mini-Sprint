@@ -16,7 +16,7 @@ class App extends Component {
         this.state = {
             // Step 8: Inside the object, set a key to movies, and the value to an array of movies
             movies: ["Purple Rain", "Graffiti Bridge", "Under the Cherry Moon", "Sign O the Times"],
-        }
+        };
     }
     // Step 9: Write a render function.
 
