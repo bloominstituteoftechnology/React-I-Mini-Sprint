@@ -1,10 +1,12 @@
 import React from 'react';
 
 const MoviesList = (props) => {
+    console.log(props);
     return (
         <ul>
+            
             { props.movies.map((movie, i) => {
-            <li key = {i}> {movie} </li>
+             return <li key = {i}> {movie} </li>
             })}
         </ul>
     )
