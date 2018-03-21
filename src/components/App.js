@@ -3,6 +3,7 @@
 // Step 3: Import MoviesList from MoviesList
 import React, {Component} from 'react';
 import react from 'react-dom';
+import MoviesList from './MoviesList';
 
 // Step 4: Write a class called App, extending Component.
 // Step 5: Write a constructor function without passing anything into it.
