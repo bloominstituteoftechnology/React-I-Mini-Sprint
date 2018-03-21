@@ -2,7 +2,7 @@
 // Step 2: Import render from react-dom
 // Step 3: Import MoviesList from MoviesList
 import React, {Component} from 'react';
-import react from 'react-dom';
+import { render } from 'react-dom';
 import MoviesList from './MoviesList';
 
 // Step 4: Write a class called App, extending Component.
