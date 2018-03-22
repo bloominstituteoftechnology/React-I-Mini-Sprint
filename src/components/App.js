@@ -3,7 +3,7 @@
 // Step 3: Import MoviesList from MoviesList
 import React, {Component} from 'react';
 import { render } from 'react-dom';
-import MoviesList from './MoviesList';
+import MovieList from './MoviesList';
 
 // Step 4: Write a class called App, extending Component.
 // Step 5: Write a constructor function without passing anything into it.
@@ -21,6 +21,12 @@ class App extends Component {
     super();
     this.state = {
       movies: ['The Crow', 'Enter the Dragon', 'Legacy of Rage']
-    }
+    };
+  }
+
+  render() {
+    return <MoviesList movies={ this.state.movies } />
   }
 }
+
+export default App;
