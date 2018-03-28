@@ -18,8 +18,8 @@ import { render } from 'react-dom'
 import MoviesList from './MoviesList'
 
 export default class App extends Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state = {
       movies: [
 	'The Dark Knight Returns',
@@ -30,7 +30,10 @@ export default class App extends Component {
 
   render() {
     return (
-	{this.state.movies.map(movie => <MoviesList movie={movie} >{this.props.movie}</MoviesList>)}
+      <div>
+	{this.state.movies.map(movie => {
+	    <MoviesList movie={movie} />)}
+      </div>
     )
   }
 }
