@@ -24,7 +24,7 @@ class App extends Component {
             // Step 10: Inside the render function, write a return statement.
             // Step 11: Inside the return statement, write a selfclosing tag called MoviesList
             // Step 12: Inside the selfclosing tag, give it an attribute called movies, and pass it this.state.movies inside a set of curly bracket.
-        return <MoviesList movies = { this.state.movies }/>;
+    return (<MoviesList movies = { this.state.movies }/>);
     }
     
 }
